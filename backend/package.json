@@ -1,0 +1,33 @@
+{
+  "name": "simple-to-do-list-app",
+  "version": "1.0.0",
+  "description": "Simple to-do list app created to learn Redux Saga",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hugobsb/Simple-To-Do-List.git"
+  },
+  "keywords": [
+    "To-do",
+    "To-do",
+    "list",
+    "Redux",
+    "Saga",
+    "React"
+  ],
+  "author": "Hugo B. S. Benedicto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hugobsb/Simple-To-Do-List/issues"
+  },
+  "homepage": "https://github.com/Hugobsb/Simple-To-Do-List#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

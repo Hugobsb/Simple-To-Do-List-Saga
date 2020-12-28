@@ -1,0 +1,12 @@
+section#home {
+    text-align: center;
+}
+
+section#home input {
+    margin-right: 2px;
+}
+
+section#home > button {
+    margin-left: 2px;
+    margin-bottom: 32px;
+}

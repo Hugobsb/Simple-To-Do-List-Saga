@@ -1,0 +1,24 @@
+.task-item {
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 8px;
+}
+
+.task-item + .task-item {
+    margin-top: 16px;
+}
+
+.task-item .task-item-controllers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-item .task-item-controllers button {
+    margin: 2px 2px;
+}
